@@ -1,5 +1,9 @@
 # ElectiveTestsUnitaires
 
+Dernière pipeline Front :
+![example workflow](https://github.com/GuillaumeCerdan/ElectiveTestsUnitaires/actions/workflows/frontci.yml/badge.svg)
+
+
 Projet e-commerce de figurines Rick & Morty
 
 Frameworks used for tests :
