@@ -11,6 +11,7 @@ const useCart = () => {
       fetch(`${endpoint}/cart`)
         .then((res) => res.json())
         .then((res) => {
+          console.log("res", res);
           setLoading(false);
           setProducts(res.products);
           resolve(true);
