@@ -1,7 +1,7 @@
 # ElectiveTestsUnitaires
 
-Dernière pipeline Front :
 ![example workflow](https://github.com/GuillaumeCerdan/ElectiveTestsUnitaires/actions/workflows/frontci.yml/badge.svg)
+![example workflow](https://github.com/GuillaumeCerdan/ElectiveTestsUnitaires/actions/workflows/backci.yml/badge.svg)
 
 
 Projet e-commerce de figurines Rick & Morty
