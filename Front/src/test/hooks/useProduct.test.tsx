@@ -26,6 +26,7 @@ test("Load product", async () => {
     })
   );
   const { loading, addProduct } = result.current;
+  expect(loading).toEqual(false);
   await act(async () => {
     await addProduct();
   }); 
