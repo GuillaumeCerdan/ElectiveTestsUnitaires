@@ -1,5 +1,5 @@
 
-name: Front CI
+name: Back CI
 
 on: push
 
