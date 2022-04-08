@@ -6,9 +6,9 @@ const Cart = ({ setRoute }: { setRoute: (data: any) => void }) => {
   return (
     <div>
       {loading && <div>Loading....</div>}
-      {message && <p>{message}</p>}
+      {message && <p className="message">{message}</p>}
       <div id="goBack" onClick={() => setRoute({ route: "home" })}>Retour</div>
-      <div>
+      <div className="listProducts">
         {products.map((product, id) => {
           return (
             <React.Fragment key={'produit-' + id}>
@@ -17,7 +17,7 @@ const Cart = ({ setRoute }: { setRoute: (data: any) => void }) => {
                 <p>Figurine de {product.name}</p>
                 <p>Quantitée {product.quantity}</p>
               </div>
-              <button onClick={() => removeToCart(product)}>
+              <button id={"suppr-" + id} onClick={() => removeToCart(product)}>
                 Supprimer du panier
               </button>
               <hr />
