@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@main
+        
+      - name: Move to project root 🌲
+        run: cd Front
 
       - name: Install 🔧
         run: npm install
